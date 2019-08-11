@@ -4,5 +4,13 @@
 
 
 ## Instalación necesaria
-Es preciso generar un archivo de configuración "/environment/environment.js" en donde almacenar la apikey para que las llamadas a las apis sean correctas.
+
+1. Es preciso generar un archivo de configuración "/environment/environment.js" en donde almacenar la apikey para que las llamadas a las apis sean correctas.
 En este caso hemos utilizada la apikey generada a través de rapidapi.com para las llamadas a ambas apis.
+
+2. Ejecutar ```npm install``` para las librerías
+
+## Ejemplo
+```
+node app -d "New York"   
+```
